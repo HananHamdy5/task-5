@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    height: 100vh;
+background-image:url(about.jpg) ;
+ background-size: 100%; 
+background-repeat: no-repeat;
+
+}
+h1.web{
+    
+    color: rgb(255, 255, 255);
+    text-align: right;
+    position: absolute;
+    right: 19%;
+    top: 35%;
+    letter-spacing: 15px;
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: 10px 10px 5px rgb(195, 81, 195);
+   
+}
+
+h1.dev{
+   
+    color: white;
+    text-align: right;
+    position: absolute;
+    right: 3%;
+    top: 55%;
+    letter-spacing: 18px;
+    font-weight: 900;
+    font-size: 48px;
+    text-shadow: 10px 10px 5px rgb(195, 81, 195);
+}
+span{
+
+    color: rgba(85, 245, 245, 0.618);
+}
+
+
+li{
+letter-spacing: 4px;
+list-style: none;
+display: inline-block;
+padding: 15px;
+margin: 20px;
+
+}
+
+a{
+    padding-top: 20px ;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    font-weight: bold;
+   
+}
+
+#home{
+text-decoration: underline;
+
+}
+
+
+main{
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(145, 6, 169, 0.978), rgba(4, 138, 156, 0.655));
+}
+
+
+img.img1{
+    margin: 100px ;
+    height: 500px;
+    width: 400px;
+    opacity: .7;
+    box-shadow: 0 0 30px beige;
+}
+h1.about{
+    position: absolute;
+    right: 42%;
+    top: 850px;
+    font-weight: bold;
+    color: rgb(89, 0, 141); 
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 5px rgba(228, 78, 255, 0.667) ;
+ 
+}
+pre{
+    font-weight: bold;
+     color: rgb(38, 1, 59); 
+  text-shadow: 2px 0px 5px rgb(168, 5, 218) ;
+}
+div.proj{
+    height: 130vh;
+    background-image: linear-gradient(to right, rgba(12, 149, 240, 0.344), rgba(26, 7, 104, 0.848));
+}
+h1.latest{
+    padding: 30px;
+    text-align: center;
+    color:rgb(96, 3, 142) ;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+img{
+    display: inline-block;
+    height: 600px;
+    width: 30%;
+    margin: 20px;
+    box-shadow: 0 0 10px beige;
+}
+a.words{
+    margin: 20px;
+  background-image: linear-gradient(to left , rgba(39, 46, 186, 0.8),rgba(40, 11, 101, 0.707));
+    display: inline-block;
+    height: 40px;
+    width: 435px;
+    color: rgb(252, 252, 252);
+    text-align: center;
+}
+div.footer{
+height: 100vh;
+background-image: linear-gradient(to right,rgba(6, 70, 85, 0.715),rgb(108, 4, 146));
+}
+div.icon{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background-image:linear-gradient(to right, rgba(13, 119, 200, 0.878),rgb(16, 22, 76));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+a.icon{
+color: rgb(255, 255, 255);
+
+}
+h1.cont{
+    font-weight: bold;
+    color: rgba(73, 188, 230, 0.67); 
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 5px rgba(228, 78, 255, 0.667) ;
+    padding: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+form{
+    height: 200px;
+    width: 500px;
+
+}
+input,textarea{
+   margin: 30px;
+   padding: 10px;
+}
+#send{
+    margin: 70px;
+   background-image: linear-gradient(to left,rgb(208, 246, 255),rgb(240, 190, 255));
+   color: rgb(126, 0, 140);
+
+}
